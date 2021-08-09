@@ -107,6 +107,11 @@ body
     /*display: flex;*/
     justify-content: center;
 }
+
+#formation
+{
+    list-style-type: none;
+}
 #CI h2
 {
     font-size: 2em;
