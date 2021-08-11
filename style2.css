@@ -2,7 +2,7 @@
 
 header
 {
-    background : url(images/office.jpg) 20% 0% no-repeat fixed;
+    background : url(images/office1.jpg) 20% 0% no-repeat fixed;
     background-size: 300%;
 }
 
@@ -239,7 +239,7 @@ footer h2
     }
     header
 {
-    background : url(images/office.jpg) 20% 0% no-repeat fixed;
+    background : url(images/office1.jpg) 20% 0% no-repeat fixed;
     background-size: 100%;
 }
 #comp
