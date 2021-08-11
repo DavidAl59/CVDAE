@@ -1,13 +1,9 @@
 
-html 
-{
-    scroll-behavior: smooth;
- 
-}
+
 header
 {
-    background : url(images/office.jpg) 50% 0% no-repeat fixed;
-    background-size: cover;
+    background : url(images/office.jpg) 20% 0% no-repeat fixed;
+    background-size: 300%;
 }
 
 .imagecircle
@@ -17,8 +13,8 @@ header
     border-radius: 100% 100% 100% 100%;
     border-style: solid;
     border-width: 5px;
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -39,7 +35,7 @@ img.photo
 h1
 {
     color: white;
-    background-color:#2569CB;
+    /*background-color:#2569CB;*/
     text-align: center;
     text-shadow: 2px 2px 2px #000000;
     font-family: 'Open Sans', sans-serif;
@@ -50,81 +46,106 @@ h1
     -moz-border-radius: 10px 10px 10px 10px;
       
 }
+.dark button
+{
+    width: 12%; 
+    height: 0%; 
+    /*font: bold 15px;*/
+    /*background : url(images/dark-mode.png);*/
+    /*background: black;*/
+    /*color: white;*/
+    float: right;
+
+}
+
 
     
-body
+body 
 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(112, 112, 112);
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    
+    font-size: 12px;
+    margin: 0;     
+
 }
+
+
 #formation h2
 {
-    font-size: 2em;
+    font-size: 1em;
     text-shadow: 1px 1px 1px #FFFFFF;
 }
 #XP h2
 {
-    font-size: 2em;
+    font-size: 1em;
     text-shadow: 1px 1px 1px #FFFFFF;
 }
 #comp h2
 {
-    font-size: 2em;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+#CI h2
+{
+    font-size: 1em;
     text-shadow: 1px 1px 1px #FFFFFF;
 }
 
 #comp
 {
-    padding: 250px 50px 100px 50px;
-    margin: -92px 0px -90px 0px;
-    clip-path: polygon(0 11%, 100% 31%, 100% 95%,0% 100%);
+    padding: 150px 150px 10px 50px;
+    margin: -50px 0px -90px 0px;
+    clip-path: polygon(0 11%, 100% 25%, 100% 95%,10% 100%);
     background: #bacce9;
 }
-#formation
+#formation 
 {
-    padding: 250px 50px 100px 50px;
-    margin: -50px 0px -90px 0px;
-    clip-path: polygon(0 11%, 100% 31%, 100% 95%,0% 100%);
+    padding: 50px 50px 100px 50px;
+    margin: 100px 0px -90px 0px;
+    clip-path: polygon(0 11%, 100% 6%, 100% 95%,10% 100%);
     background: #6c9ce9;
+
 }
+
 
 #XP
 {
-    padding: 250px 50px 100px 50px;
-    margin: -100px 0px -90px 0px;
-    clip-path: polygon(0 11%, 100% 31%, 100% 95%,0% 100%);
+    padding: 150px 50px 100px 50px;
+    margin: 50px 0px -90px 0px;
+    clip-path: polygon(0 9%, 500% 31%, 100% 92%,0% 100%);
     background: #a5c0ec;
 }
 
 #CI
 {
-    padding: 250px 50px 100px 50px;
-    margin: -50px 0px -90px 0px;
-    clip-path: polygon(0 11%, 100% 31%, 100% 95%,0% 100%);
+    /* padding: 200px 50px 10px 50px; */
+    margin: -150px 0px -90px 0px;
+    clip-path: polygon(0 11%, 100% 20%, 200% 95%,0% 100%);
     background: #347bee;
+    padding: 400px 0 25px;
     /*display: flex;*/
     justify-content: center;
 }
+.flip-box-inner
+{
+    width: calc(100% - 20px);
+    margin: 0 10px;
+}
 
-#formation
-{
-    list-style-type: none;
-}
-#CI h2
-{
-    font-size: 2em;
-    text-shadow: 1px 1px 1px #FFFFFF;
-}
 .imagesCI
 {
-    width: 100%;
-    height: 100%;
     display: flex;
+    flex-wrap: wrap;
+    
 
 }
-
+.flip-box-front img
+{
+    background-size: contain;
+    height: 300px;
+    background-position: center bottom;
+}
 
 .flip-box-back div
 {
@@ -136,7 +157,8 @@ body
 {
     text-transform: uppercase;
     padding: 5px;
-    font-size-adjust: auto;
+    font-size: 16px;
+
 }
 .flip-box-back
 {
@@ -175,15 +197,24 @@ body
 
 footer
 {
-    background : url(images/contact.jpg) 100% 0% no-repeat fixed;
-    background-size: cover;
+
     text-align: center;
     padding: 250px 50px 100px 50px;
     margin: -50px 0px -90px 0px;
+    background : url(images/contact.jpg) 100% 0% no-repeat fixed;
+    background-position: center bottom;
+    background-size: 200%;
 }
 
 footer h2
 {
     font-size: 2em;
     text-shadow: 1px 1px 1px #FFFFFF;
+}
+.imagefooter
+{
+    background : url(images/contact.jpg) 100% 0% no-repeat fixed;
+    background-size: 300%;
+
+
 }
