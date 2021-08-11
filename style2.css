@@ -3,10 +3,10 @@
 header
 {
     background : url(images/office1.jpg) 20% 0% no-repeat fixed;
-    background-size: 300%;
+    background-size: 100%;
 }
 
-.imagecircle
+/*https://davidal59.github.io/CVDAE/.imagecircle
 {
     border-color: rgb(68, 69, 105) ;
     border-image: none;
@@ -18,15 +18,15 @@ header
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-}
+ } */
 
 img.photo
 {
-    width: 100%;
-    height: 100%;
-    -moz-border-radius : 150px;
-    -webkit-border-radius : 150px;
-    border-radius : 150px;
+    width: 10%;
+    height: 10%;
+    /* -moz-border-radius : 150px;
+    -webkit-border-radius : 150px; */
+    /* border-radius : 150px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
