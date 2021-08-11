@@ -52,7 +52,7 @@ h1
     height: 0%; 
     /*font: bold 15px;*/
     /*background : url(images/dark-mode.png);*/
-    /*background: black;*/
+    background: grey;
     /*color: white;*/
     float: right;
 
@@ -229,10 +229,25 @@ footer h2
     @media screen and (min-device-width:640px)
 
 {
+    body 
+    {
+        background-color: rgb(255, 255, 255);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        margin: 0;        
+
+    }
     header
 {
     background : url(images/office.jpg) 20% 0% no-repeat fixed;
     background-size: 100%;
+}
+#comp
+{
+    padding: 150px 150px 10px 50px;
+    margin: -10px 0px -90px 0px;
+    clip-path: polygon(0 11%, 100% 25%, 100% 95%,-10% 100%);
+    background: #bacce9;
 }
 #formation 
 {
@@ -265,3 +280,140 @@ footer
 
 
 }
+                        @media screen and (min-device-width:1080px)
+                        
+                        
+                        
+                        {
+                            body 
+                            {
+                                background-color: rgb(255, 255, 255);
+                                font-family: 'Open Sans', sans-serif;
+                                font-size: 24px;
+                                margin: 0;        
+
+                            }
+                            #comp
+                            {
+                                padding: 150px 150px 10px 50px;
+                                margin: -10px 0px -90px 0px;
+                                clip-path: polygon(0 11%, 100% 25%, 100% 95%,-10% 100%);
+                                background: #bacce9;
+                            }
+                            #XP
+                            {
+                                padding: 150px 50px 100px 50px;
+                                margin: 100px 0px 0px 0px;
+                                clip-path: polygon(0 10%, 200% 33%, 100% 92%,0% 100%);
+                                background: #a5c0ec;
+                            }
+                            #formation 
+                            {
+                                padding: 50px 50px 100px 50px;
+                                margin: 90px 0px -90px 0px;
+                                clip-path: polygon(0 11%, 100% 6%, 100% 80%,5% 100%);
+                                background: #6c9ce9;
+
+                            }
+                            #CI
+                            {
+                                margin: -150px 0px -90px 0px;
+                                clip-path: polygon(-60% 11%, 100% 60%, 200% 95%,0% 100%);
+                                background: #347bee;
+                                padding: 400px 0 25px;
+                                /*display: flex;*/
+                                justify-content: center;
+                            }
+                            .flip-box-inner
+                            {
+                                width: calc(100% - 20px);
+                                margin: 0 10px;
+                            }
+
+                            .imagesCI
+                            {
+                                display: flex;
+                                flex-wrap: wrap;
+                                
+
+                            }
+                            .flip-box-front img
+                            {
+                                background-size: contain;
+                                height: 200px;
+                                background-position: center bottom;
+                            }
+
+                            .flip-box-back div
+                            {
+                                margin : 0 auto;
+                                /*writing-mode: vertical-lr;*/
+                                text-orientation: upright;
+                            }
+                            .flip-box-back p
+                            {
+                                text-transform: uppercase;
+                                padding: 2px;
+                                font-size: 12px;
+
+                            }
+                            .flip-box-back
+                            {
+                                color: white;
+                                transform: rotateY(180deg);
+                            }
+                            .flip-box-front, .flip-box-back
+                            {
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                backface-visibility: hidden;
+                                justify-content: left;
+                            }
+                            .flip-box
+                            {
+                                overflow: hidden;
+                                background-color: transparent;
+                                width: 100%;
+                                max-width: 200px;
+                                height: 200px;
+                                /*perspective: 1000px;*/
+                            }
+                            .flip-box-inner
+                            {
+                                position: relative;
+                                width: 100%;
+                                max-width: 200px;
+                                height: 200px;
+                                transition: transform 0.5s;
+                                transform-style: preserve-3d;
+                            }
+                            .flip-box:hover .flip-box-inner
+                            {
+                                transform: rotateY(180deg);
+                            }
+
+                            footer
+                            {
+
+                                text-align: center;
+                                padding: 250px 50px 100px 50px;
+                                margin: -50px 0px -90px 0px;
+                                background : url(images/contact.jpg) 100% 0% no-repeat fixed;
+                                background-position: center bottom;
+                                background-size: 100%;
+                            }
+
+                            footer h2
+                            {
+                                font-size: 2em;
+                                text-shadow: 1px 1px 1px #FFFFFF;
+                            }
+                            .imagefooter
+                            {
+                                background : url(images/contact.jpg) 100% 0% no-repeat fixed;
+                               
+                            }
+
+                        }
+                    
