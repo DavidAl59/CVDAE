@@ -205,7 +205,7 @@ footer
     background : url(images/contact.jpg) 100% 0% no-repeat fixed;
     background-position: center bottom;
     background-size: 200%;
-    color: black;
+    color: black; 
 }
 #contact
 {
