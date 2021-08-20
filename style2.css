@@ -420,4 +420,29 @@ footer
                             }
 
                         }
+
+                        @media screen and (min-device-width:1440px)
+                        
+                                                
+                        {
+                            footer
+                            {
+
+                                text-align: center;
+                                padding: 250px 50px 100px 50px;
+                                margin: -50px 0px -90px 0px;
+                                background : url(images/contact.jpg) 100% 0% no-repeat fixed;
+                                background-position: center bottom;
+                                background-size: 50%;
+                            }
+                            .imagefooter
+                            {
+                                background : url(images/contact.jpg) 100% 0% no-repeat fixed;
+                               
+                            }
+                        }
+
+
+
+
                     
