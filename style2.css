@@ -32,6 +32,7 @@ img.photo
     margin-right: auto;
 }
 
+
 h1
 {
     color: white;
@@ -57,7 +58,15 @@ h1
     float: right;
 
 }
-
+li{
+    list-style: none; 
+    margin-bottom: 10px;
+ }
+ .presentation
+ {
+     font-size: 1.4rem;
+     font-family: Comic Sans MS;
+ }
 
     
 body 
@@ -241,6 +250,15 @@ footer h2
         margin: 0;        
 
     }
+    li{
+        list-style: none;
+        margin-bottom: 10px; 
+     }
+     .presentation
+     {
+         font-size: 1.4rem;
+         font-family: Comic Sans MS;
+     }
     header
 {
     background : url(images/office1.jpg) 20% 0% no-repeat fixed;
@@ -289,6 +307,11 @@ footer
                         
                         
                         {
+                            .presentation
+                            {
+                                font-size: 1.4rem;
+                                font-family: Comic Sans MS;
+                            }
                             body 
                             {
                                 background-color: rgb(255, 255, 255);
@@ -379,7 +402,7 @@ footer
                                 overflow: hidden;
                                 background-color: transparent;
                                 width: 100%;
-                                max-width: 200px;
+                                max-width: 375px;
                                 height: 200px;
                                 /*perspective: 1000px;*/
                             }
@@ -417,6 +440,10 @@ footer
                             {
                                 background : url(images/contact.jpg) 100% 0% no-repeat fixed;
                                
+                            }
+                            li{
+                               list-style: none;
+                               margin-bottom: 10px; 
                             }
 
                         }
